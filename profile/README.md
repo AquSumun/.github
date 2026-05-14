@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Aqu%20Sumun&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Crafting%20Intelligence,%20One%20Project%20at%20a%20Time&descSize=18&descAlignY=60" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=AquaSumun&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=AI-Powered%20Water%20Quality%20Management%20Platform&descSize=18&descAlignY=60" />
 
 <br/>
 
 <p>
-  <img src="https://img.shields.io/badge/Focus-AI%20%2F%20ML-00BFA6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Type-Side%20Project%20Team-6366F1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/2026-AX%20경진대회-00BFA6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/공공데이터-한국환경공단-6366F1?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge" />
 </p>
 
@@ -14,111 +14,135 @@
 
 <br/>
 
-## 🌊 About Aqu Sumun
+## 🌊 About AquaSumun
 
-> **Aqu Sumun** is a side project team exploring the frontier of **Artificial Intelligence** and **Machine Learning**.  
-> We build, experiment, and ship — turning ideas into intelligent systems.
+> **AquaSumun**은 공공하수처리시설의 수질 데이터를 AI로 분석하는 관제 플랫폼입니다.  
+> 한국환경공단 공공데이터(data.go.kr) 기반으로 **15,022개 시설**의 이상 감지·예측·자동 진단을 지원합니다.
 
-We believe in **learning by building**. Every project is an opportunity to push our understanding deeper, ship something useful, and grow together as engineers.
+**2026 AX 아이디어 경진대회** — 데이터 활용 제품·서비스(앱/AI Agent) 개발 사업 부문 출품작
 
 <br/>
 
-## 🎯 What We Do
+## 🎯 핵심 기능
 
-| Area | Description |
+| 기능 | 설명 |
 | :--- | :--- |
-| 🧠 **LLM Applications** | Building practical applications powered by large language models |
-| 🔍 **RAG Systems** | Designing retrieval-augmented generation pipelines for domain-specific tasks |
-| 🤖 **ML Engineering** | End-to-end model training, evaluation, and deployment |
-| 📊 **Data & Analytics** | Turning raw data into actionable insights |
-| 🛠️ **AI Tooling** | Crafting developer tools and utilities for the AI ecosystem |
+| 🤖 **AI 에이전트** | Observe → Detect → Diagnose → Recommend 자율 진단 루프 |
+| 📈 **수질 예측** | BOD/TN/TP 48시간 AI 예측 + 신뢰 구간 시각화 |
+| 🔍 **XAI 설명** | SHAP 피처 기여도로 예측 근거 투명하게 제공 |
+| 🚨 **이상 감지** | HGB + IsolationForest 앙상블 위험도 실시간 모니터링 |
+| 📄 **보고서 자동생성** | 자가측정·일일보고·ESG 보고서 PDF/Excel 자동 생성 |
+| 🔔 **알림 전송** | 경보 발생 시 담당자 즉시 통보 |
 
 <br/>
 
-## 🧪 Tech Stack
+## 🧪 기술 스택
 
-#### Languages
+#### Frontend
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Zustand-000000?style=flat-square&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square" />
 </p>
 
-#### AI / ML
+#### Backend & AI / ML
 <p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
 </p>
 
-#### Backend & API
+#### Export & Tools
 <p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-</p>
-
-#### Frontend
-<p>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-</p>
-
-#### Database & Infra
-<p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
-</p>
-
-#### Collaboration
-<p>
+  <img src="https://img.shields.io/badge/jsPDF-FF0000?style=flat-square" />
+  <img src="https://img.shields.io/badge/SheetJS-217346?style=flat-square" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white" />
-  <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
 </p>
 
 <br/>
 
-## 📂 Repositories
+## 🚀 실행 방법
 
-Our work is organized by project. Browse our [repositories](https://github.com/orgs/AquSumun/repositories) to see what we're building.
+#### 사전 요건
+- Node.js 20+
+- 백엔드 서버 실행 중 (`http://localhost:8000`) → [Backend README](../Backend/README.md)
 
 ```bash
-# Clone any of our public projects
-git clone https://github.com/AquSumun/<project-name>.git
+# 의존성 설치
+cd Frontend
+npm install
+
+# 개발 서버 시작
+npm run dev
+# → http://localhost:3000
+```
+
+#### 환경변수 (`.env.local`)
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:8000
+NEXT_PUBLIC_USE_MOCK=false
+```
+
+> `NEXT_PUBLIC_USE_MOCK=true` 로 변경하면 목업 데이터로 백엔드 없이 실행 가능합니다.
+
+<br/>
+
+## 🔑 데모 계정
+
+```yaml
+email   : demo@example.com
+password: demo123
 ```
 
 <br/>
 
-## 🤝 How We Work
+## 📂 프로젝트 구조
+
+```bash
+Frontend/src/
+├── app/
+│   ├── login/              # 로그인
+│   ├── plants/             # 시설 목록
+│   └── plants/[id]/        # 대시보드 · 예측 · 보고서
+├── components/
+│   ├── common/             # Button · Badge · Modal · Skeleton
+│   ├── dashboard/          # ActionButtons · ForecastChart · AgentRunModal
+│   ├── forecast/           # ShapChart · TimeSeriesChart
+│   ├── plants/             # PlantCard
+│   └── reports/            # ReportPreview
+├── api/                    # 백엔드 API 호출 레이어
+├── hooks/                  # useAuth · useStream
+├── store/                  # Zustand 전역 상태
+├── types/                  # TypeScript 인터페이스
+└── utils/                  # constants · reportPdf · 유틸
+```
+
+<br/>
+
+## 🤝 개발 방식
 
 ```yaml
-methodology:
-  development : "Iterative & experiment-driven"
-  collaboration: "Async-first, weekly sync"
-  code_review : "Required for all merges to main"
-  documentation: "Code, decisions, and learnings"
+architecture:
+  frontend : "Next.js App Router + Zustand"
+  backend  : "FastAPI REST API (Bearer token)"
+  ml       : "HGB + IsolationForest Ensemble"
+  rag      : "TF-IDF + cosine similarity"
 
-principles:
-  - "Ship small, ship often"
-  - "Learn in public"
-  - "Reproducibility over magic"
-  - "Quality over quantity"
+data:
+  source   : "한국환경공단 공공하수처리시설 현황 (2015–2024)"
+  size     : "15,022개 시설 · 연도별 수질 및 처리 효율"
+  forecast : "5,683개 시설 AI 예측 가능 (2년 이상 데이터)"
 ```
 
 <br/>
 
 ## 📬 Contact
-
-For collaboration, inquiries, or just to say hi:
 
 <p>
   <a href="mailto:wjdwoals000619@gmail.com">
@@ -135,6 +159,8 @@ For collaboration, inquiries, or just to say hi:
 
 ---
 
-<sub>Made with 🌊 by **Aqu Sumun** · Always learning, always building.</sub>
+<sub>Made with 🌊 by <strong>Aqu Sumun</strong> · AI for a cleaner water future.</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" />
 
 </div>
